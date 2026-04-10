@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: SIQA_GIT_1045Project
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: Test_Timeout
+    type: workflow
+    uid: fl64ee0884f00fad9877745d
+    stepId: a0
+    reference: SIQA_TimeoutTest:delayfor2Sec
