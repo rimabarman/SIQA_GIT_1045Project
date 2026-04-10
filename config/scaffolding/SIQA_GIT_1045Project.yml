@@ -8,9 +8,15 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 - name: TPP_services_in_FCS
+  version: "1.0"
   gitServerName: rimaSCName
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: rimabarman
+  gitBranch: main
+- name: SIQA_TimeoutTest
+  gitServerName: SIQAGitHub
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
   gitBranch: main
 services:
 - serviceName: project.siqa_git_1045.integrations:Sum
@@ -18,6 +24,8 @@ services:
   - name: SIQA_GIT_1045Project
     version: "1.0"
   - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
 - serviceName: pub.math:addInts
   packages:
@@ -32,6 +40,8 @@ services:
   - name: SIQA_GIT_1045Project
     version: "1.0"
   - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
 - serviceName: pub.string:stringToBytes
   packages:
